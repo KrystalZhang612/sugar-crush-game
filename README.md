@@ -21,6 +21,10 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 [Author]()
 
 # Functionalities/Demo
+- A board that randomly generates candies all over the board.
+- Allows players to switch out colors of different candies on board.
+- Check for 3+ consecutive matches, which are the valid matches to cancel off. 
+- All the candies get moved down if the player gets a match.
 
 
 
