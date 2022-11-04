@@ -18,7 +18,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#testing-result)
 
 # Contribution
-[Author]()
+[Author](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#author)
 
 # Functionalities/Demo
 - A board that randomly generates candies all over the board.
