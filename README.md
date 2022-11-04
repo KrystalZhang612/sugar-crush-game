@@ -1,1 +1,1 @@
-# KrystalZhang-SugarCrush-Game-App
+# KrystalZhang-SugarCrush Game App
