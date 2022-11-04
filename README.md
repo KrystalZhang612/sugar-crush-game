@@ -15,7 +15,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#prerequisites--setup)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Result]()
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#testing-result)
 
 # Contribution
 [Author]()
@@ -89,7 +89,7 @@ So now we have:<br/>
 
 
 # Testing Result 
-
+[board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/board%20with%20randomly%20generated%20candy%20colors.png)<br/> 
   
   
   
