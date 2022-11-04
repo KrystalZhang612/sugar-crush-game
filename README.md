@@ -42,8 +42,11 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 ### Download the entirep project of SugarCrush Game App to the local directory.
 ### Open the project with Vscode on local device.
 ### Install Vscode Extension [`Live Server Vscode Extension v5.7.9`](https://www.vsixhub.com/vsix/1950/)
-### Open [index.html]() in Vscode.
+### Open [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/index.html) in Vscode.
 ### Click `Go Live` on the bottom bar to play the fan and exciting SugarCrush Game! 
+
+# Prerequisites & Setup
+
 
 
 
