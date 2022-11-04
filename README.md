@@ -87,6 +87,63 @@ square.setAttribute('draggable', true)
 ```
 Now candies colors are draggable:<br/> 
 [draggable candy colors.MOV](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/draggable%20candy%20colors.mov)<br/> 
+## ***Drag the candies:***
+Start to drag:
+```JavaScript 
+  function dragStart() {
+     colorBeingDragged = this.style.backgroundColor     
+squareIdBeingDragged = parseInt(this.id)
+        console.log(colorBeingDragged)
+        console.log(this.id, 'dragstart')
+}
+```
+The dragged candies dropped:
+```JavaScript 
+ function dragDrop() {
+        console.log(this.id, 'dragdrop')
+        colorBeingReplaced = this.style.backgroundColor
+        squareIdBeingReplaced = parseInt(this.id)
+        this.style.backgroundColor = colorBeingDragged
+        squares[squareIdBeingDragged].style.backgroundColor =
+colorBeingReplaced
+    }
+```
+Define valid moves:
+```JavaScript 
+ if (squareIdBeingReplaced && validMove) {
+    squareIdBeingReplaced = null
+        } else if (squareIdBeingReplaced && !validMove) {
+    squares[squareIdBeingReplaced].style.backgroundColor =
+colorBeingReplaced
+    squares[squareIdBeingDragged].style.backgroundColor =
+colorBeingDragged
+        } else squares[squareIdBeingDragged].style.backgroundColor =
+colorBeingDragged
+```
+## ***First check for row of consecutive 3:***
+If row of 3 is matched, player’s score + 3:
+```JavaScript 
+ function checkRowForThree() {
+        for (i = 0; i < 61; i++) {
+            let rowOfThree = [i, i + 1, i + 2]
+            let decidedColor = squares[i].style.backgroundColor
+            const isBlank = squares[i].style.backgroundColor === ''
+        if (rowOfThree.every(index =>
+squares[index].style.backgroundColor === decidedColor && !isBlank)) {
+                score += 3
+                rowOfThree.forEach(index => {
+                    squares[index].style.backgroundColor = ''
+                })
+        squares[index].style.backgroundColor = ''
+                })
+    checkRowForThree()
+```
+
+
+
+
+
+
 
 
 
