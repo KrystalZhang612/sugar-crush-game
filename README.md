@@ -81,6 +81,13 @@ Make the board randomly generate different candy colors:
 ```
 So now we have:<br/> 
 [board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/board%20with%20randomly%20generated%20candy%20colors.png)<br/> 
+To make the candy colors grid draggable:
+```JavaScript 
+square.setAttribute('draggable', true)
+```
+Now candies colors are draggable:<br/> 
+[draggable candy colors.MOV](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/draggable%20candy%20colors.mov)<br/> 
+
 
 
 
@@ -90,7 +97,7 @@ So now we have:<br/>
 
 # Testing Result 
 [board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/board%20with%20randomly%20generated%20candy%20colors.png)<br/> 
-  
+[draggable candy colors.MOV](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/draggable%20candy%20colors.mov)<br/> 
   
   
   
