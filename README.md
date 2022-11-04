@@ -8,14 +8,6 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 ## SugarCrush Game App Overview:
 <div> 
   <video src ="https://user-images.githubusercontent.com/72481348/200009187-d7cd4fda-43d8-4c80-b499-37813fef6d2b.mov" width="380" height ="472.2"/>&nbsp; 
-  <video src ="https://user-images.githubusercontent.com/72481348/200010256-5eae3f4b-443a-4bbf-a6b1-2d0264837d53.mov"  width="380" height ="472.2"/>
+  <video src "https://user-images.githubusercontent.com/72481348/200010734-4b96c7e4-9a24-4dbe-aa82-f5d87b8c64da.mov" width = "380" height ="472.2"/> 
 </div>
-
-
-
-
-
-
-
-
 
