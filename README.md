@@ -26,6 +26,18 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 - Check for 3+ consecutive matches, which are the valid matches to cancel off. 
 - All the candies get moved down if the player gets a match.
 
+# Compatiability 
+
+| Browsers       | Supported          |
+| -------        | ------------------ |
+| Google Chrome  | :white_check_mark: |
+| Microsoft Edge | :white_check_mark: |
+| FireFox        | :white_check_mark: |
+| Apple Safari   | :white_check_mark: |
+| Opera          | :white_check_mark: |
+| DuckDuckGo     | :white_check_mark: |
+
+
 
 
 
