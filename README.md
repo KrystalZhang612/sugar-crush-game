@@ -48,9 +48,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 # Prerequisites & Setup
 Create [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/index.html), [app.js](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/app.js) and [style.css](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/style.css) files in local directory to start off.
 
-
-
-
+# 🛠️ Developing Languages, Tools, and Techniques Needed
 
 
 
