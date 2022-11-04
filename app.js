@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const width = 8
     const squares = []
     let score = 0
-
     const candyColors = [
         'url(images/red-candy.png)',
         'url(images/yellow-candy.png)',
@@ -128,7 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     checkRowForFour()
 
-
     //check column for consecutive 4 
     function checkColumnForFour() {
         for (i = 0; i < 47; i++) {
@@ -146,7 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     checkColumnForFour()
-
 
     //check row for consecutive 3 
     function checkRowForThree() {
@@ -195,6 +192,4 @@ document.addEventListener('DOMContentLoaded', () => {
         checkColumnForThree()
 
     }, 100)
-
 })
-
