@@ -60,6 +60,8 @@ Create [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-G
   <img src ="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title ="HTML5" alt ="HTML5"  width ="60" height ="60"/>&nbsp;
   <img src ="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title ="CSS3" alt ="CSS3"  width ="60" height ="60"/>  
 </div>
+
+# Synchronous Developing Notes
   
   
   
