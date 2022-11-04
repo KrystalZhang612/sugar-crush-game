@@ -54,6 +54,12 @@ Create [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-G
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
 [CSS3](https://en.wikipedia.org/wiki/CSS)<br/> 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)<br/> 
+<div>
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" title ="Vscode" alt = "Vscode" width ="60" height ="60" />&nbsp; 
+
+  
+</div>
+
 
 
 
