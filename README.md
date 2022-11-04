@@ -46,6 +46,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 ### Click `Go Live` on the bottom bar to play the fan and exciting SugarCrush Game! 
 
 # Prerequisites & Setup
+Create [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/index.html), [app.js]() and [style.css]() files in local directory to start off.
 
 
 
