@@ -11,6 +11,16 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
   <img src ="https://user-images.githubusercontent.com/72481348/200014826-afe4c9d4-cd60-4e0b-b416-eccd7cf08653.mov" width = "380" height ="472.2" />
 </p>
 
+# Build
+[Method to Run & Test the Project Locally]()<br/> 
+[Prerequisites & Setups]()<br/> 
+[Synchronous Developing Notes]()<br/> 
+[Testing Result]()
+
+# Contribution
+[Author]()
+
+# Functionalities/Demo
 
 
 
