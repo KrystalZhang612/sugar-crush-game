@@ -57,9 +57,22 @@ Create [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-G
 <div>
   <img src ="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" title ="Vscode" alt = "Vscode" width ="60" height ="60" />&nbsp; 
   <img src ="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title ="JavaScript" alt ="JavaScript" width ="60" height ="60"/>&nbsp; 
-  
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title ="HTML5" alt ="HTML5"  width ="60" height ="60"/>&nbsp; 
+       
+       
+ 
   
 </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
