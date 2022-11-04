@@ -12,7 +12,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 </p>
 
 # Build
-[Method to Run & Test the Project Locally]()<br/> 
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Prerequisites & Setups]()<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Result]()
