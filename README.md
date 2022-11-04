@@ -80,7 +80,16 @@ Make the board randomly generate different candy colors:
   square.style.backgroundColor = candyColors[randomColor]
 ```
 So now we have:<br/> 
-[board of randomly generated candy colors.PNG]()<br/> 
+[board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/board%20with%20randomly%20generated%20candy%20colors.png)<br/> 
+
+
+
+
+
+
+
+# Testing Result 
+
   
   
   
