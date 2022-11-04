@@ -138,23 +138,86 @@ squares[index].style.backgroundColor === decidedColor && !isBlank)) {
                 })
     checkRowForThree()
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
+Now we have check row of 3 works:<br/> 
+[check row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20row%20of%203%20works.png)<br/> 
+Set interval to check for row of three:
+```JavaScript 
+window.setInterval(function(){
+        checkRowForThree()
+}, 100)
+```
+Now when manually move to get row of three, it will go into background white color:<br/> 
+[row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/row%20of%203%20works.png)<br/> 
+## ***First check for column of consecutive 3:***
+```JavaScript 
+//check column for consecutive 3
+    function checkColumnForThree() {
+        for (i = 0; i < 47; i++) {
+            let columnOfThree = [i, i + width, i + width * 2]
+            let decidedColor = squares[i].style.backgroundColor
+            const isBlank = squares[i].style.backgroundColor === ''
+            if (columnOfThree.every(index =>
+squares[index].style.backgroundColor === decidedColor && !isBlank)) {
+                score += 3
+                columnOfThree.forEach(index => {
+                squares[index].style.backgroundColor = ''
+```
+Now column of 3 matches are checked:<br/> 
+[check column of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20column%20of%20three%20works.png)<br/>
+And manually moving to get a column of 3 candies also works.<br/>
+Do the same for checking row of 4 and column of 4<br/> 
+Since 4 consecutive has more privileges than 3 consecutive, call 4s before 3s:
+```JavaScript 
+  window.setInterval(function () {
+        checkRowForFour()
+        checkColumnForFour()
+        checkRowForThree()
+        checkColumnForThree()
+}, 100)
+```
+Get the candies to fall down when there are matches and canceled:
+```JavaScript 
+ //drop candies once some have been cleared
+    function moveDown(){
+        for (i =0; i<55; i++ ) {
+            if (squares[i+width].style.backgroundColor === ''){
+                squares[i+width].style.backgroundColor =
+squares[i].style.backgroundColor
+ } ...
+movedown()
+    squares[i].style.backgroundColor = ''
+}
+```
+Now all the matched candies which are canceled out are all fall down:<br/> 
+[matched and canceled candies falls off.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/matched%20and%20cancelled%20candies%20falls%20off.png)<br/> 
+To make the score display:
+```JavaScript 
+scoreDisplay.innerHTML = score
+```
+Add scoreboard to index.html:
+```JavaScript 
+<div class='score-board'>
+        <h3>Score</h3>
+        <h1 id="score"></h1>
+```
+Now we have the scoreboard on-top showing simultaneously:<br/> 
+[scoreboard showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/score%20board%20showing.png)<br/> 
+Import candies images and replace `backgroundColor` with `backgroundImage`: <br/>
+[candies images all showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/candies%20images%20all%20showed%20.png)<br/> 
 
 # Testing Result 
 [board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/board%20with%20randomly%20generated%20candy%20colors.png)<br/> 
 [draggable candy colors.MOV](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/draggable%20candy%20colors.mov)<br/> 
+[check row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20row%20of%203%20works.png)<br/> 
+[row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/row%20of%203%20works.png)<br/> 
+[check column of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20column%20of%20three%20works.png)<br/>
+[matched and canceled candies falls off.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/matched%20and%20cancelled%20candies%20falls%20off.png)<br/> 
+[scoreboard showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/score%20board%20showing.png)<br/> 
+[candies images all showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/candies%20images%20all%20showed%20.png)<br/> 
+
+
+
+
   
   
   
