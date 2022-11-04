@@ -51,7 +51,8 @@ Create [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-G
 # 🛠️ Developing Languages, Tools, and Techniques Needed
 [Vscode 1.73](https://code.visualstudio.com/updates/v1_73)<br/> 
 [JavaScript](https://www.javascript.com/)<br/> 
-[Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/ CSS3 https://en.wikipedia.org/wiki/CSS)<br/> 
+[Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
+[CSS3](https://en.wikipedia.org/wiki/CSS)<br/> 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)<br/> 
 
 
