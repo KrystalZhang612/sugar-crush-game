@@ -37,7 +37,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 | Opera          | :white_check_mark: |
 | DuckDuckGo     | :white_check_mark: |
 
-
+# Method to Run & Test the Project Locally
 
 
 
