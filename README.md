@@ -62,8 +62,25 @@ Create [index.html](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-G
 </div>
 
 # Synchronous Developing Notes
-  
-  
+## ***Create board:***
+Create a board of grids in app.js and call them:
+```JavaScript 
+function createBoard() {
+        for (let i = 0; i < width * width; i++) {
+            const square = document.createElement('div')
+            grid.appendChild(square)
+            squares.push(square)
+} }
+    createBoard()
+})
+```
+Make the board randomly generate different candy colors:
+```JavaScript 
+  let randomColor = Math.floor(Math.random() * candyColors.length)
+  square.style.backgroundColor = candyColors[randomColor]
+```
+So now we have:<br/> 
+[board of randomly generated candy colors.PNG]()<br/> 
   
   
   
