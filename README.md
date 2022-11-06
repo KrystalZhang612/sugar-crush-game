@@ -15,7 +15,8 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#prerequisites--setup)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#testing-result)
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#testing-result)<br/>
+[Tags and Topics]()
 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#author)
@@ -215,6 +216,8 @@ Import candies images and replace `backgroundColor` with `backgroundImage`: <br/
 [scoreboard showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/score%20board%20showing.png)<br/> 
 [candies images all showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/candies%20images%20all%20showed%20.png)<br/> 
 
+# Tags and Topics 
+javascript, html5, css3, game-application, html-canvas-game.
 # Author
 Krystal Zhang 
 https://github.com/KrystalZhang612<hr>
