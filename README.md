@@ -16,7 +16,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#prerequisites--setup)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#testing-result)<br/>
-[Tags and Topics]()
+[Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#tags-and-topics)
 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/README.md#author)
