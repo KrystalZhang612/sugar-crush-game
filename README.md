@@ -82,13 +82,13 @@ Make the board randomly generate different candy colors:
   square.style.backgroundColor = candyColors[randomColor]
 ```
 So now we have:<br/> 
-[board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/board%20with%20randomly%20generated%20candy%20colors.png)<br/> 
+[board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/board%20with%20randomly%20generated%20candy%20colors.PNG)<br/> 
 To make the candy colors grid draggable:
 ```JavaScript 
 square.setAttribute('draggable', true)
 ```
 Now candies colors are draggable:<br/> 
-[draggable candy colors.MOV](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/draggable%20candy%20colors.mov)<br/> 
+[draggable candy colors.MOV](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/draggable%20candy%20colors.mov)<br/> 
 ## ***Drag the candies:***
 Start to drag:
 ```JavaScript 
@@ -141,7 +141,7 @@ squares[index].style.backgroundColor === decidedColor && !isBlank)) {
     checkRowForThree()
 ```
 Now we have check row of 3 works:<br/> 
-[check row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20row%20of%203%20works.png)<br/> 
+[check row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/check%20row%20of%203%20works.PNG)<br/> 
 Set interval to check for row of three:
 ```JavaScript 
 window.setInterval(function(){
@@ -149,7 +149,7 @@ window.setInterval(function(){
 }, 100)
 ```
 Now when manually move to get row of three, it will go into background white color:<br/> 
-[row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/row%20of%203%20works.png)<br/> 
+[row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/row%20of%203%20works.PNG)<br/> 
 ## ***First check for column of consecutive 3:***
 ```JavaScript 
 //check column for consecutive 3
@@ -165,7 +165,7 @@ squares[index].style.backgroundColor === decidedColor && !isBlank)) {
                 squares[index].style.backgroundColor = ''
 ```
 Now column of 3 matches are checked:<br/> 
-[check column of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20column%20of%20three%20works.png)<br/>
+[check column of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/check%20column%20of%20three%20works.PNG)<br/>
 And manually moving to get a column of 3 candies also works.<br/>
 Do the same for checking row of 4 and column of 4<br/> 
 Since 4 consecutive has more privileges than 3 consecutive, call 4s before 3s:
@@ -191,7 +191,7 @@ movedown()
 }
 ```
 Now all the matched candies which are canceled out are all fall down:<br/> 
-[matched and canceled candies falls off.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/matched%20and%20cancelled%20candies%20falls%20off.png)<br/> 
+[matched and canceled candies falls off.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/matched%20and%20cancelled%20candies%20falls%20off.PNG)<br/> 
 To make the score display:
 ```JavaScript 
 scoreDisplay.innerHTML = score
@@ -203,19 +203,12 @@ Add scoreboard to index.html:
         <h1 id="score"></h1>
 ```
 Now we have the scoreboard on-top showing simultaneously:<br/> 
-[scoreboard showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/score%20board%20showing.png)<br/> 
+[scoreboard showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/score%20board%20showing.PNG)<br/> 
 Import candies images and replace `backgroundColor` with `backgroundImage`: <br/>
-[candies images all showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/candies%20images%20all%20showed%20.png)<br/> 
+[candies images all showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/candies%20images%20all%20showed.PNG)<br/> 
 
 # Testing Result 
-[board of randomly generated candy colors.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/board%20with%20randomly%20generated%20candy%20colors.png)<br/> 
-[draggable candy colors.MOV](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/draggable%20candy%20colors.mov)<br/> 
-[check row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20row%20of%203%20works.png)<br/> 
-[row of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/row%20of%203%20works.png)<br/> 
-[check column of three works.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/check%20column%20of%20three%20works.png)<br/>
-[matched and canceled candies falls off.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/matched%20and%20cancelled%20candies%20falls%20off.png)<br/> 
-[scoreboard showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/score%20board%20showing.png)<br/> 
-[candies images all showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/candies%20images%20all%20showed%20.png)<br/> 
+
 
 # Tags and Topics 
 javascript, html5, css3, game-application, html-canvas-game.
