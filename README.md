@@ -208,6 +208,15 @@ Import candies images and replace `backgroundColor` with `backgroundImage`: <br/
 [candies images all showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/candies%20images%20all%20showed.PNG)<br/> 
 
 # Testing Result 
+<p align = "center">
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/board%20with%20randomly%20generated%20candy%20colors.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/draggable%20candy%20colors.mov">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/check%20row%20of%203%20works.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/row%20of%203%20works.PNG">&nbsp;
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/check%20column%20of%20three%20works.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/matched%20and%20cancelled%20candies%20falls%20off.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/score%20board%20showing.PNG">&nbsp;
+</p>
 
 
 # Tags and Topics 
