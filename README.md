@@ -8,7 +8,7 @@ My replica of one of the world’s most famous games CandyCrush mainly using Jav
 ## SugarCrush Game App Overview:
 <p align = "center"> 
   
-  <img src = "https://github.com/KrystalZhang612/KrystalZhang-SugarCrush-Game-App/blob/main/testing-result-sugar-crush-game-app/SugarCrushApp%20Overview1.mov" />
+  <img src = "https://github.com/KrystalZhang612/sugar-crush-game/blob/main/testing-result-sugar-crush-game-app/SugarCrushApp%20Overview1.mov" />
   
 </p>
 
